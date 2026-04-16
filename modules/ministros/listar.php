@@ -32,6 +32,7 @@ $result = $conn->query($sql);
 
             <div class="header-actions">
                 <button class="btn btn-gold" onclick="abrirModalCrear()">+ Nuevo Ministro</button>
+                <a href="credenciales.php" class="btn btn-silver">🔐 Ver Credenciales</a>
                 <a href="../../dashboard/dashboard.php" class="btn btn-silver">Volver al Dashboard</a>
             </div>
         </div>
