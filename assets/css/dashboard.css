@@ -1,0 +1,141 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 230px;
+    height: 100vh;
+    background: #111;
+    color: #fff;
+    position: fixed;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background: #333;
+    color: #fff;
+}
+
+/* MAIN */
+.main {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* USER */
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #4CAF50;
+}
+
+/* LOGOUT */
+.logout {
+    text-decoration: none;
+    background: #e74c3c;
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.logout:hover {
+    background: #c0392b;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    color: #333;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ICONO GRANDE */
+.card::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    opacity: 0.1;
+}
+
+/* TEXTOS */
+.card h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.card h2 {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 13px;
+    color: #888;
+}
+
+/* IFRAME */
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
