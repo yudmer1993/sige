@@ -1,1 +1,1 @@
-<?php echo "CONEXIÓN EXITOSA - " . date("H:i:s"); ?>
+<?php echo "CONEXIÓN EXITOSA  YUDMER - " . date("H:i:s"); ?>
