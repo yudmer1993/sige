@@ -1,1 +1,0 @@
-<?php echo ""CONEXIÓN EXITOSA YUDMER - PRUEBA AUTOMÁTICA"- " . date("H:i:s"); ?>
